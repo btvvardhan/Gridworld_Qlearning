@@ -138,7 +138,7 @@ matplotlib
 
 ### Installation
 ```bash
-git clone https://github.com/btvvardhan/Gridworld-Qlearning.git
+git clone https://github.com/btvvardhan/Gridworld_Qlearning.git
 cd gridworld-qlearning
 pip install -r requirements.txt
 ```
