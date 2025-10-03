@@ -180,11 +180,12 @@ class QLearningAgent:
                 elif state == self.env.goal_state:
                     ax.add_patch(plt.Rectangle((plot_col, plot_row), 1, 1, color='lightgreen'))
                     ax.text(plot_col + 0.5, plot_row + 0.5, 'GOAL\n+1', ha='center', va='center',
-                           fontsize=14, fontweight='bold')
+                           fontsize=14, fontweight='bold')                                    
                 elif state == self.env.trap_state:
                     ax.add_patch(plt.Rectangle((plot_col, plot_row), 1, 1, color='lightcoral'))
-                    ax.text(plot_col + 0.5, plot_row + 0.5, 'TRAP\n-1', ha='center', va='center',
-                           fontsize=14, fontweight='bold')
+                    penalty_text = f'{self.env.trap_reward:.0f}' if self.env.trap_reward != -1 else '-1'
+                    ax.text(plot_col + 0.5, plot_row + 0.5, f'TRAP\n{penalty_text}', ha='center', va='center',
+                        fontsize=14, fontweight='bold')
                 elif state in policy:
                     arrow = arrow_dict[policy[state]]
                     ax.text(plot_col + 0.5, plot_row + 0.5, arrow, ha='center', va='center',
