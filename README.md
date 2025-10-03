@@ -138,7 +138,7 @@ matplotlib
 
 ### Installation
 ```bash
-git clone https://github.com/your-username/gridworld-qlearning.git
+git clone https://github.com/btvvardhan/Gridworld-Qlearning.git
 cd gridworld-qlearning
 pip install -r requirements.txt
 ```
@@ -272,7 +272,7 @@ The project includes comprehensive visualizations:
 
 ## 👥 Authors
 
-[Your Name/Team Name]
+[Teja Vishnu Vardhan Boddu]
 
 ## 📄 License
 
