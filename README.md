@@ -230,7 +230,7 @@ gridworld-qlearning/
 ├── gridworld.py              # Environment implementation
 ├── qlearning_agent.py        # Q-Learning agent
 ├── experiments.py            # All experiments and analysis functions
-├── main.ipynb               # Jupyter notebook with all experiments
+├── Assignment.ipynb               # Jupyter notebook with all experiments
 ├── requirements.txt         # Python dependencies
 └── README.md               # This file
 ```
