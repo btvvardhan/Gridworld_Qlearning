@@ -274,9 +274,6 @@ The project includes comprehensive visualizations:
 
 [Teja Vishnu Vardhan Boddu]
 
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 
